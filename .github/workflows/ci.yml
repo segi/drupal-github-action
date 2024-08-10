@@ -9,4 +9,4 @@ jobs:
       - name: Validate composer.lock
         uses: php-actions/composer@v6
         with:
-          command: composer validate --no-check-all --no-check-publish
+          command: validate --no-check-all --no-check-publish
